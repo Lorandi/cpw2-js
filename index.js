@@ -10,9 +10,12 @@ function invert(people) {
     nomesInvertidos.push(people[i]);
   }
 
-  for (let i = 0; i < nomesInvertidos.length; i++) {
-    console.log(nomesInvertidos[i]);
-  }
+//   for (let i = 0; i < nomesInvertidos.length; i++) {
+//     console.log(nomesInvertidos[i]);
+//     console.log(people[i]);
+//   }
+  console.log(nomesInvertidos);
+  console.log(people);
 
   return nomesInvertidos;
 }
@@ -136,6 +139,8 @@ function wide(strDate) {
   let data = dia + " de " + mesPorExtenso + " de " + ano;
   return data;
 }
+
+invert(["Pedro", "Maria", "Trevis", "John", "Heitor", "Camila"]);
 
 // Trecho utilizado pelos testes
 exports._test = {
